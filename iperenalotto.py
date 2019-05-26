@@ -1,4 +1,4 @@
-from random import sample
+from random import sample, randrange
 
 #set a list of magic numbers
 magic_numbers = [
@@ -7,8 +7,14 @@ magic_numbers = [
     76, 77, 79, 81, 82, 85, 86, 87, 89
 ]
 
-#extract 5 unique numbers random from magic list
-print(sample(magic_numbers,5))
+#extract 6 unique numbers random from magic list
+sestina = sorted(sample(magic_numbers,6))
+
+#pick a superstar random from the 90
+superstar = randrange(1,91)
+
+#print the result
+print(f"I tuoi numeri: {sestina} SuperStar {superstar}")
 
 
 
