@@ -7,14 +7,22 @@ magic_numbers = [
     76, 77, 79, 81, 82, 85, 86, 87, 89
 ]
 
-#extract 6 unique numbers random from magic list
-sestina = sorted(sample(magic_numbers,6))
+def schedina():
+    """Random extract 6 numbers from my lucky numbers + a Superstar from the 90"""
 
-#pick a superstar random from the 90
-superstar = randrange(1,91)
+    #extract 6 unique numbers random from magic list
+    sestina = sorted(sample(magic_numbers,6))
 
-#print the result
-print(f"I tuoi numeri: {sestina} SuperStar {superstar}")
+    #pick a superstar random from the 90
+    superstar = randrange(1,91)
 
+    #print the result
+    print(f"{sestina} SuperStar {superstar}")
 
+giocate = int(input('Quante giocate vuoi fare?: '))
+
+print('Ecco i tuoi numeri: ')
+
+for _ in range(giocate):
+    schedina()
 
