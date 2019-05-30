@@ -1,5 +1,5 @@
-# Tenta la fortuna giocando sestine random generate dai miei numeri magici!
-## p.s.: non usciranno mai!!!
+# Tenta la fortuna giocando sestine random
+
 
 ### Elenco vincite:
 
